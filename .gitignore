@@ -1,0 +1,16 @@
+#node_modules
+node_modules
+
+#build
+dist
+
+#Misc
+config
+detail.txt
+figjam1.pem
+figjam.ppk
+
+package-lock.json
+yarn.lock
+
+.DS_Store
