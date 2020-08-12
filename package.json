@@ -12,6 +12,10 @@
     "prettier": "prettier --single-quote --trailing-comma all --write '*/*.js'",
     "lint": "eslint . --ext .js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/figjam-net/figjam-backend.git"
+  },
   "keywords": [],
   "author": "Jasdeep",
   "dependencies": {
