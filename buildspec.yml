@@ -10,6 +10,10 @@ phases:
       - npm install -g mocha
   pre_build:
     commands:
+      - npm install -g n -force
+      - n 14.6.0
+      - node --version
+      - npm --version
       - echo Installing source NPM dependencies...
       - npm install
   build:
